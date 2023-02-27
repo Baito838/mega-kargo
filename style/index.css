@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kalam:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  color: #011E52;
+}
+
+.navbar {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.hidden a {
+  text-decoration: none;
+  color: black;
+}
+
+.hidden a:hover {
+  color: black;
+}
+
+#hero {
+  width: 100%;
+  min-height: 100vh;
+  max-height: min-content;
+}
+
+#layanan {
+  min-height: 100vh;
+  max-height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-us{
+    padding: 10px 20px 50px 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border: transparent;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+}
+
+.drop-downmenu{
+    transition: all 0.5s ease-in-out;
+}
+
+.card-layanan {
+  background: rgba(255, 255, 255, 0.31);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+}
+
+.card {
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+  background-color: whitesmoke;
+}
+
+.card img {
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.15);
+}
+
+.card .card-body p {
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover .card-body p {
+  color: black;
+  transform: scale(1.15);
+}
+
+.card .card-body h3 {
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover .card-body h3 {
+  color: black;
+  transform: scale(1.15);
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: scale(0.25);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+}
+
+.carousel-image {
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: "Kalam", cursive;
+}
+
+@media (max-width: 600px) {
+  .hero-text h4,
+  h3 {
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+  }
+
+  .hero-text {
+    padding: 30px;
+  }
+
+  #hero {
+    align-items: center;
+    padding: 100px 20px;
+  }
+
+  .card .card-body p {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .card:hover .card-body p {
+    color: black;
+    transform: scale(1.1);
+  }
+
+  .hidden a:hover {
+    color: black;
+  }
+
+  .carousel{
+    margin: 0px 30px;
+  }
+}

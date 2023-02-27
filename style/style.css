@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kalam:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+section {
+  min-height: 100vh;
+  max-height: min-content;
+  padding: 30px 50px;
+}
+
+h1 {
+  color: #011E52;
+  font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: scale(0.25);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+}
+
+.why-us{
+    padding: 10px 20px 50px 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border: transparent;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+}
+
+/* Sejarah Section */
+
+.sejarah {
+  min-height: 400px;
+  width: 400px;
+}
+.sejarah-img {
+  background-image: url("assets/hero-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sejarah-img-2 {
+  background-image: url("assets/hero-img-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sejarah-2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Kontak Section */
+
+.kontak .card {
+  min-width: 300px;
+  min-height: 400px;
+  max-height: min-content;
+  transition: all 0.5s ease-in-out;
+  background: rgba(255, 255, 255, 0.6);
+  border: transparent;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.8px);
+  -webkit-backdrop-filter: blur(9.8px);
+}
+
+.kontak .card:hover {
+    transform: scale(1.1);
+}
+
+
+.lokasi {
+  border-radius: 16px;
+  overflow: hidden;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  min-width: 300px;
+  width: 100%;
+  height: 400px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 400px;
+}
+.gmap_iframe {
+  height: 400px !important;
+}
+
+/* Visi Section */
+
+  /*  Layanan */
+
+
+@media (max-width: 600px) {
+  section {
+    min-height: 100vh;
+    max-height: min-content;
+    padding: 50px 20px;
+  }
+  .judul {
+    font-size: 3rem;
+  }
+  /*  sejarah */
+  .sejarah-2 {
+    flex-direction: column-reverse;
+  }
+
+  /*  Visi Misi */
+  .visi-img{
+    width: 350px;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  /*  Layanan */
+  .hero-layanan {
+    flex-direction: column-reverse;
+  }
+}
