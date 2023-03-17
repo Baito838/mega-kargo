@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <!-- Title -->
-        <title>Galeri</title>
-        <link rel="icon" href="assets/megacargo-removebg-preview.png">
-    
-        <!-- Bootstrap 5 -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-            
-        <!-- Bootstrap 5 Script -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-       
-        <!-- Transiton JS -->
-        <script defer src="script/transition.js"></script>
-    
-        <!-- Style -->
-        <link rel="stylesheet" href="style/index.css">
-        <link rel="stylesheet" href="style/style.css">
-    
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Galeri</title>
+    <link rel="icon" href="assets/megacargo-removebg-preview.png">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap 5 Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Transiton JS -->
+    <script defer src="script/transition.js"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/style.css">
+
     <style>
         .galeri {
             width: 100%;
@@ -29,40 +33,43 @@
             height: 300px;
         }
     </style>
-    </head>
+</head>
+
 <body style="background-color: #E9E6DF; flex-direction: row;">
-     <!-- Section Navbar --> 
+    <!-- Section Navbar -->
     <nav class="navbar position-absolute position-sticky w-100 sticky-top navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
             <div class="d-flex justify-content-between align-items-center">
                 <div><img style="height: 34px;" src="assets/icon.png" alt=""></div>
                 <h2 class="navbar-brand" style="padding-right: 0; margin-right: 0;">Mega Kargo</h2>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Profil
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
-                    <li><a class="dropdown-item" href="visi.html">Visi Misi</a></li>
-                    <li><a class="dropdown-item active" href="#">Galeri</a></li>
-                    <li><a class="dropdown-item" href="mitra.html">Mitra</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="layanan.html">Layanan</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kontak.html">Hubungi Kami</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                            <li><a class="dropdown-item" href="visi.html">Visi Misi</a></li>
+                            <li><a class="dropdown-item active" href="#">Galeri</a></li>
+                            <li><a class="dropdown-item" href="mitra.html">Mitra</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="layanan.html">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Hubungi Kami</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -77,20 +84,28 @@
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <div class="d-block carousel-image w-100" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.50.jpeg');"></div>
+                            <div class="d-block carousel-image w-100"
+                                style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.50.jpeg');">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <div class="d-block carousel-image w-100" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.52.jpeg');"></div>
+                            <div class="d-block carousel-image w-100"
+                                style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.52.jpeg');">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <div class="d-block carousel-image w-100" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.51 -8.jpeg');"></div>
+                            <div class="d-block carousel-image w-100"
+                                style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.51 -8.jpeg');">
+                            </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -100,23 +115,33 @@
                 <div id="carouselExampleFade2" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <div class="d-block carousel-image w-100" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.49.jpeg');"></div>
+                            <div class="d-block carousel-image w-100"
+                                style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.49.jpeg');">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <div class="d-block carousel-image w-100" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.54.jpeg');"></div>
+                            <div class="d-block carousel-image w-100"
+                                style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.54.jpeg');">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <div class="d-block carousel-image w-100" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.54 -9.jpeg');"></div>
+                            <div class="d-block carousel-image w-100"
+                                style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.54 -9.jpeg');">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <div class="d-block carousel-image w-100" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.52 -11.jpeg');"></div>
+                            <div class="d-block carousel-image w-100"
+                                style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.52 -11.jpeg');">
+                            </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade2"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -129,13 +154,19 @@
         <div class="container w-100 d-flex justify-content-center hidden">
             <div class="row w-100 d-flex justify-content-center flex-wrap">
                 <div class="col p-2 d-flex justify-content-center">
-                    <div class="galeri" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.51.jpeg'); background-position: center; background-size: cover;"></div>
+                    <div class="galeri"
+                        style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.51.jpeg'); background-position: center; background-size: cover;">
+                    </div>
                 </div>
                 <div class="col p-2 d-flex justify-content-center">
-                    <div class="galeri" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.53 -22.jpeg'); background-position: center; background-size: cover;"></div>
+                    <div class="galeri"
+                        style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.53 -22.jpeg'); background-position: center; background-size: cover;">
+                    </div>
                 </div>
                 <div class="col p-2 d-flex justify-content-center">
-                    <div class="galeri" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.53 -32.jpeg'); background-position: center; background-size: cover;"></div>
+                    <div class="galeri"
+                        style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.53 -32.jpeg'); background-position: center; background-size: cover;">
+                    </div>
                 </div>
             </div>
         </div>
@@ -143,22 +174,32 @@
         <div class="container w-100 d-flex justify-content-center">
             <div class="row w-100 d-flex justify-content-center flex-wrap hidden">
                 <div class="col p-2 d-flex justify-content-center">
-                    <div class="galeri" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.53.jpeg'); background-position: center; background-size: cover;"></div>
+                    <div class="galeri"
+                        style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.53.jpeg'); background-position: center; background-size: cover;">
+                    </div>
                 </div>
                 <div class="col p-2 d-flex justify-content-center">
-                    <div class="galeri" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.50-1.jpeg'); background-position: center; background-size: cover;"></div>
+                    <div class="galeri"
+                        style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.50-1.jpeg'); background-position: center; background-size: cover;">
+                    </div>
                 </div>
                 <div class="col p-2 d-flex justify-content-center">
-                    <div class="galeri" style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.49.jpeg'); background-position: center; background-size: cover;"></div>
+                    <div class="galeri"
+                        style="background-image: url('assets/galeri/WhatsApp Image 2023-02-26 at 10.44.49.jpeg'); background-position: center; background-size: cover;">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <footer class="w-100 d-flex justify-content-center align-items-center" style="width: 100%; height: 50px; background-color: white;">
-        <h6 class="text-secondary text-center"><p>&copy;2023 All Rights Reserved - Megatitiannusantara Cargoservices</p></h6>
+    <footer class="w-100 d-flex justify-content-center align-items-center p-2"
+        style="width: 100%; height: min-content; background-color: white;">
+        <h6 class="text-secondary text-center">
+            <p>&copy; 2023 All Rights Reserved - Megatitiannusantara Cargoservices</p>
+        </h6>
     </footer>
 
 </body>
+
 </html>
